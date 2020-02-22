@@ -1,0 +1,58 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+body {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+div {
+   flex-basis: 15%;
+   flex-grow: 1;
+   height: 33.33vh; 
+   border: 3px solid white;
+}
+
+@media (orientation: portrait){
+   div {
+      flex-basis: 30%; 
+      height: 16.66vh; 
+   }
+}
+
+/*Card colors */
+.red {
+   background-color: red;
+}
+.blue {
+   background-color: blue;
+}
+.yellow {
+   background-color: yellow;
+}
+.green {
+   background-color: green;
+}
+.brown {
+   background-color: brown;
+}
+.lime {
+   background-color: gray;
+}
+.lightgreen {
+   background-color: lime
+}
+.cadetblue {
+   background-color: cadetblue;
+}
+.purple {
+   background-color: purple;
+}
+
+/*Hidden cards*/
+.hidden {
+   background-color: black;
+}
+/*Guessed cards*/
+.off {
+   background-color: #eee;
+}
